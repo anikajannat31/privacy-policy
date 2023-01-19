@@ -10,6 +10,9 @@
 body {
   background: #343541;
 }
+html {
+  scroll-behavior: smooth;
+}
 
 #app {
   width: 100vw;
@@ -66,4 +69,98 @@ form {
     border: none;
     cursor: pointer;
 }
+#about {
+
+  width: 100vw;
+  height: 100vh;
+  padding: 5%;
+  /*background: #1b26a4;*/
+  background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)), url(assets/backgrounfsecond.jpg);
+  background-position: center;
+  background-size: cover;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+ 
+  justify-content: center;
+
+}
+.navbar {
+  width: 85%;
+  margin: auto;
+  padding: 35px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav ul li {
+  list-style: none;
+  display: inline-block;
+  margin: 0 20px;
+}
+nav {
+  flex: 1;
+  text-align: center;
+}
+nav ul li a {
+  text-decoration: none;
+  color: #fff; 
+  font-size: 20px;
+}
+
+
+.contact-box {
+  height: 100vh;
+  /*width: 500px;*/
+  /*margin: auto;*/
   
+  background-color: transparent;
+  fill: #fff;
+  /*box-shadow: 0 0 20px 0 #999;
+  /*top: 80%;
+  /*left: 50%;
+  /*transform: translate(-50%, -50%);*/
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /*position: relative;*/
+}
+  
+#contact {
+
+  width: 100vw;
+  height: 100vh;
+  padding: 0;
+  
+  background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)), url(assets/backgroundthird.jpg);
+  background-position: center;
+  background-size: cover;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+ 
+  justify-content: center;
+
+
+}
+
+#privacy {
+
+  width: 100vw;
+  height: 100vh;
+  padding: 5%;
+  /*background: #1b26a4;*/
+  background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)), url(assets/backgrounfsecond.jpg);
+  background-position: center;
+  background-size: cover;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+ 
+  justify-content: center;
+
+}
